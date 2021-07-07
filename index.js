@@ -57,8 +57,6 @@ bot.on("ready", function () {
           type: "WATCHING",
         },
       });
-    const f = bot.functions.get("fetch");
-    f.execute(bot);
 });
 
 bot.on("disconnected", function () {
